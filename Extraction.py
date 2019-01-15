@@ -250,9 +250,9 @@ for listOfMatchingChars in listOfListsOfMatchingChars:
         # cv2.imwrite(temp_folder + '11 - detected.png', imageContours)
 
         cv2.imshow("detectedOriginal", img)
-        cv2.imwrite(temp_folder + '12 - detectedOriginal.png', img)
+        # cv2.imwrite(temp_folder + '12 - detectedOriginal.png', img)
 
         # cv2.imshow("plate", plates_list[i].Plate)
-        cv2.imwrite(temp_folder + '13 - plate.png', plates_list[i].Plate)
+        # cv2.imwrite(temp_folder + '13 - plate.png', plates_list[i].Plate)
 
 cv2.waitKey(0)
