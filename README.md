@@ -6,6 +6,8 @@ This version is based on Chris Dahms version available here: https://github.com/
 
 What I did was to copy his repository and extract the code which do the detection of plates (his code contains also a character recognition system which worked pretty bad for me). After that I did some refactoring.
 
-Finally, after some processing, OCR is applied.
+To use it:
 
-# WORK IN PROGRESS - STILL NEED TO UPLOAD FILES #
+python Extraction.py --image car.png﻿
+
+
