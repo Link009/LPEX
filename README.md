@@ -4,6 +4,8 @@ License Plate EXtractor is a software which extract vehicles license plates. No 
 
 This version is based on Chris Dahms version [available here](https://github.com/MicrocontrollersAndMore/OpenCV_3_License_Plate_Recognition_Python)
 
+![examples](http://cvisiondemy.com/wp-content/uploads/2019/01/ok_examples.png)
+
 What I did was to copy his repository and extract the code which do the detection of plates (his code contains also a character recognition system which worked pretty bad for me). After that I did some refactoring.
 
 To use it:
