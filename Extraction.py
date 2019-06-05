@@ -50,7 +50,11 @@ thresh = cv2.adaptiveThreshold(blur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.TH
 # cv2.imwrite(temp_folder + '7 - thresh.png', thresh)
 
 # check for contours on thresh
-imageContours, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+# if using OpenCV 3.4
+# imageContours, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+
+# else, if OpenCV >= 4, try
+contours, hierarchy = cv2.findContours(thresh, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
 
 # get height and width
 height, width = thresh.shape
