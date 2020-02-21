@@ -13,3 +13,4 @@ To use it:
 > python Extraction.py --image car.png﻿
 
 
+Read more about this script on my blog [lucians.dev/license-plate-detection-with-opencv-and-python](https://lucians.dev/license-plate-detection-with-opencv-and-python)
